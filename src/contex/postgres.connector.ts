@@ -1,4 +1,4 @@
-/* import { Pool } from "pg";
+ import { Pool } from "pg";
 import dotenv from "dotenv";
 dotenv.config();
 
@@ -26,4 +26,4 @@ const executeQuery = async (sql: any, data?: any[]): Promise<any> => {
   }
 };
 
-export default executeQuery; */
+export default executeQuery; 

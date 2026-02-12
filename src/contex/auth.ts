@@ -1,4 +1,4 @@
-/* import { NextFunction, Request, Response } from "express";
+ import { NextFunction, Request, Response } from "express";
 import dotenv from "dotenv";
 import jwt, { Secret } from "jsonwebtoken";
 import Usuario from "../usuarios/domain/Usuario";
@@ -56,4 +56,4 @@ const isConserje = (req: Request, response: Response, next: NextFunction) => {
   }
 };
 
-export { decode, createToken, isAuth, isConserje }; */
+export { decode, createToken, isAuth, isConserje }; 
