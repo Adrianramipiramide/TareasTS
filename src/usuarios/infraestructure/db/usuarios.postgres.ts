@@ -1,7 +1,7 @@
 import Usuario from "../../domain/Usuario";
 import UsaurioRepository from "../../domain/usuario.repository";
 import executeQuery from "../../../contex/postgres.connector.ts";
-export default class UsuuariosRepositoryPostgres implements UsaurioRepository{
+export default class UsuariosRepositoryPostgres implements UsaurioRepository{
     
     async registrarUsuario(email: String, password: String): Promise<void> {
         const query = `INSERT INTO usuarios (email, password) VALUES ('${email}', '${password}')`;
